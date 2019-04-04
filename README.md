@@ -103,4 +103,6 @@ MK_trend.py: function to perform Mann-Kendall trend analysis.
 perform_start_end_date_sensitivity.py: code to perform result sensitivity to start and end date of warming hiatus.
 
 
+###########################################################################
+Any problems in installation of the codes, please contact Xufeng Wang(wangxufeng@lzb.ac.cn)
 
