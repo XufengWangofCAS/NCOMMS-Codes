@@ -67,7 +67,7 @@ Temperature_CRUTEM4_05deg_grid_trend_spatial_pattern.py: This code is used to ca
 
 ###########################################################################
 
-Part 4: Results plotting codes, here we only provide the codes for figures in the Main manuscript
+Part 4: Results plotting codes, here we provide the codes for figures in maunuscript
 
 Fig1_GIMMS_SOS_EOS_trend_version2.py: Codes used to plot Figure 1 in the manuscript.
 
