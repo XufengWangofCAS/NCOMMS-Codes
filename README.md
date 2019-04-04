@@ -68,10 +68,15 @@ Temperature_CRUTEM4_05deg_grid_trend_spatial_pattern.py: This code is used to ca
 ###########################################################################
 
 Part 4: Results plotting codes, here we only provide the codes for figures in the Main manuscript
+
 Fig1_GIMMS_SOS_EOS_trend_version2.py: Codes used to plot Figure 1 in the manuscript.
+
 Fig2_FLX_phen_spaghetti.py: Codes used to plot Figure 2 in the manuscript.
+
 Fig3_envir_control_SOS_EOS_boxplot.py: Codes used to plot Figure 3 in the manuscript.
+
 Fig4_Temp_spr_aut.py: Codes used to plot Figure 4 in the manuscript.
+
 Fig5_carbon_flux_trend_result_from_phenology_trend.py: Codes used to plot Figure 5 in the manuscript.
 
 FigS3_Get_GPP_threshold_for_phen_extract.py: Codes used to plot Figure S3 in the Support Information.
