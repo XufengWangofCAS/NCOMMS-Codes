@@ -1,6 +1,7 @@
 Code run environment: Anaconda for Python 2.7. NumPy, SciPy, pandas, matplotlib, netCDF4 and GDAL packages should be installed. 
 
 ###########################################################################
+
 Part 1: Instruction to run the code to process GIMMS3g NDVI.
 
 Step 1: 
@@ -34,6 +35,7 @@ Run GIMMS_phenology_trend.py code to calculate the MK trend in the northern hemi
 
 
 ###########################################################################
+
 Part 2: Instruction to run the code to process FLUXNET2015 dataset.
 
 Step 1:
@@ -47,6 +49,7 @@ Run Cal_Trends_R2_phen_vs_envir_and_var_trend_for_seasons.py to calculate phenol
 
 
 ###########################################################################
+
 Part 3: Codes to process the CRUTEM data
 Temperature_CRUTEM3_Seasonal.py: This code is used to calculate the seasonal average temperature from CRUTEM3 (5 degree resolution) in the northern hemisphere (lat > 30degree). User need to specify the input/output directory in the codes.
 
@@ -63,6 +66,7 @@ Temperature_CRUTEM4_seasonal_spatial_05deg_grid.py: This code is used to convert
 Temperature_CRUTEM4_05deg_grid_trend_spatial_pattern.py: This code is used to calculate the spring (or autumn) temperature trend for each grid. The user needs to specify the input/output directory in the codes.
 
 ###########################################################################
+
 Part 4: Results plotting codes, here we only provide the codes for figures in the Main manuscript
 Fig1_GIMMS_SOS_EOS_trend_version2.py: Codes used to plot Figure 1 in the manuscript.
 Fig2_FLX_phen_spaghetti.py: Codes used to plot Figure 2 in the manuscript.
@@ -89,6 +93,7 @@ FigS17_plot_correlation_of_2groups.py: Codes used to plot Figure S17 in the Supp
 FigS18_S19_Plot_R2_for_phen_&carbon_flux_latitude_sorted_display_sig.py: Codes used to plot Figure S18 and S19 in the Support Information.
 
 ###########################################################################
+
 Part5: other codes:
 phenology_estimate.py: this file include functions for different NDVI based phenology methods, and they are called in Cal_phenology_from_NDVI.py;
 
@@ -104,5 +109,6 @@ perform_start_end_date_sensitivity.py: code to perform result sensitivity to sta
 
 
 ###########################################################################
-Any problems in installation of the codes, please contact Xufeng Wang(wangxufeng@lzb.ac.cn)
+
+Any problems in installation of the codes, please contact Xufeng Wang(wangxufeng@lzb.ac.cn).
 
