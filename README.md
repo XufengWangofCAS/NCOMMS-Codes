@@ -108,7 +108,7 @@ Geotiff_read_write.py: functions to read and write GeoTIFF format in Python.
 
 GPP_smooth_func.py: functions to smooth daily GPP, and these functions are called in estimate_phenology_date_from_daily_GPP.py.
 
-MK_trend.py: function to perform Mann-Kendall trend analysis.
+MK_trend.pyc: function to perform Mann-Kendall trend analysis. (source code for this fucntion can be accessed at https://github.com/mps9506/Mann-Kendall-Trend)
 
 perform_start_end_date_sensitivity.py: code to perform result sensitivity to start and end date of warming hiatus.
 
