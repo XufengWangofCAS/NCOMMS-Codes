@@ -1,13 +1,22 @@
 Code run environment: Anaconda for Python 2.7. NumPy, SciPy, pandas, matplotlib, netCDF4 and GDAL packages should be installed.
+
 #########################################################################
+
 Part 1: Instruction to run the code to process GIMMS3g NDVI.
+
 Step 1: Data format conversion. GIMMS_binary2geotiff.py: run this code to convert GIMMS3g V0 binary data to GeoTIFF format. The user needs to specify the input and output directory in the code.
+
 Step 2: Estimate_phenology_from_GIMMS3g_V0_r000_1080.py: python code to estimate phenology from step1 converted GIMMS3g V0 GeoTIFF files specified row range. Estimate_phenology_from_GIMMS3g_V1_r000_1080.py: python code to estimate phenology from GIMMS3g V1 netcdf files for specified row range.
 The user should specify the input/output path, the start row and end row number in the code. The output is in text format. The user can parallelly calculate at several regions by setting the start and end row number in the codes.
+
 Step 3: Run GIMMS3g_phen_merge.py to merge the sub-regions phenology outputted from step2 to the whole northern hemisphere and saved as GeoTIFF. The user needs to specify the input/output path in the code file.
+
 Step 4: Run GIMMS3g_phenology_result_spatial_extent_uniform.py code to make the spatial extent consistent during the period for each method. The user needs to specify the input/output path in the code file. The input is output from step 3.
+
 Step 5: Run GIMMS3g_phen_sub_statistic.py to get northern hemisphere spatial average phenology from the output of step 4.
+
 Step 6: Run average_RS_phenology_from_Multi_methods.py to get average phenology from different methods in each year. The user needs to specify the input/output path in the code file. The input is output from step 4.
+
 Step 7: Run GIMMS_phenology_trend.py code to calculate the MK trend in the northern hemisphere. The user needs to specify the input/output path in the code file. The input is output from step 6.
 
 #########################################################################
