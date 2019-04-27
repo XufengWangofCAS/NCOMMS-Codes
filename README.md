@@ -1,4 +1,5 @@
 Code run environment: Anaconda for Python 2.7. NumPy, SciPy, pandas, matplotlib, netCDF4 and GDAL packages should be installed.
+
 #########################################################################
 Part 1: Instruction to run the code to process GIMMS3g NDVI.
 Step 1: Data format conversion. GIMMS_binary2geotiff.py: run this code to convert GIMMS3g V0 binary data to GeoTIFF format. The user needs to specify the input and output directory in the code.
@@ -9,11 +10,13 @@ Step 4: Run GIMMS3g_phenology_result_spatial_extent_uniform.py code to make the 
 Step 5: Run GIMMS3g_phen_sub_statistic.py to get northern hemisphere spatial average phenology from the output of step 4.
 Step 6: Run average_RS_phenology_from_Multi_methods.py to get average phenology from different methods in each year. The user needs to specify the input/output path in the code file. The input is output from step 4.
 Step 7: Run GIMMS_phenology_trend.py code to calculate the MK trend in the northern hemisphere. The user needs to specify the input/output path in the code file. The input is output from step 6.
+
 #########################################################################
 Part 2: Instruction to run the code to process FLUXNET2015 dataset.
 Step 1: Run estimate_phenology_date_from_daily_GPP.py to estimate SOS and EOS at each site.
 Step 2: Run get_seasonal_meteo_&_carbon_flux20171027.py to get seasonal meteorological data, carbon flux data and quality flag.
 Step 3: Run Cal_Trends_R2_phen_vs_envir_and_var_trend_for_seasons.py to calculate phenology trends, meteorological variables trends, carbon fluxes trends, correlation between phenology and meteorological variables (or carbon fluxes).
+
 #########################################################################
 Part 3: Codes to process the CRUTEM data Temperature_CRUTEM3_Seasonal.py: This code is used to calculate the seasonal average temperature from CRUTEM3 (5 degree resolution) in the northern hemisphere (lat > 30degree). User need to specify the input/output directory in the codes.
 Temperature_CRUTEM4_Seasonal.py: This code is used to calculate the seasonal average temperature from CRUTEM4 (5-degree resolution) in the northern hemisphere (lat > 30degree). The user needs to specify the input/output directory in the codes.
@@ -22,6 +25,7 @@ Temperature_GISTEMP_seasonal_data.py: This code is used to calculate the seasona
 Temperature_NOAA_seasonal_data.py: This code is used to calculate the seasonal average temperature from NOAA GIS temperature dataset in the northern hemisphere (lat > 30degree).
 Temperature_CRUTEM4_seasonal_spatial_05deg_grid.py: This code is used to convert the high resolution (0.5 degree) CRUTEM4 NetCDF files to seasonal GeoTIFF files. The user needs to specify the input/output directory in the codes.
 Temperature_CRUTEM4_05deg_grid_trend_spatial_pattern.py: This code is used to calculate the spring (or autumn) temperature trend for each grid. The user needs to specify the input/output directory in the codes.
+
 #########################################################################
 Part 4: Results plotting codes, here we provide the codes for figures in maunuscript.
 Fig1_GIMMS_SOS_EOS_trend_version2.py: Codes used to plot Figure 1 in the manuscript.
@@ -45,6 +49,7 @@ Geotiff_read_write.py: functions to read and write GeoTIFF format in Python.
 GPP_smooth_func.py: functions to smooth daily GPP, and these functions are called in estimate_phenology_date_from_daily_GPP.py.
 MK_trend.pyc: function to perform Mann-Kendall trend analysis. (source code for this fucntion can be accessed at https://github.com/mps9506/Mann-Kendall-Trend)
 perform_start_end_date_sensitivity.py: code to perform result sensitivity to start and end date of warming hiatus.
+
 #########################################################################
 Any problems in installation of the codes, please contact Xufeng Wang(wangxufeng@lzb.ac.cn).
 
