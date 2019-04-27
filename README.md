@@ -1,5 +1,4 @@
 Code run environment: Anaconda for Python 2.7. NumPy, SciPy, pandas, matplotlib, netCDF4 and GDAL packages should be installed.
-
 #########################################################################
 Part 1: Instruction to run the code to process GIMMS3g NDVI.
 Step 1: Data format conversion. GIMMS_binary2geotiff.py: run this code to convert GIMMS3g V0 binary data to GeoTIFF format. The user needs to specify the input and output directory in the code.
