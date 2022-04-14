@@ -1,4 +1,4 @@
-Code run environment: Anaconda for Python 2.7. NumPy, SciPy, pandas, matplotlib, netCDF4 and GDAL packages should be installed.
+Environment: Anaconda for Python 2.7; Package requirements: NumPy, SciPy, pandas, matplotlib, netCDF4 and GDAL.
 
 #########################################################################
 
